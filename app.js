@@ -64,6 +64,3 @@ function getWeather(latitude, longitude) {
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
   }
-
-
-
